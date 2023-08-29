@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* common shared style  */
+body{
+    font-family: 'Open Sans';
+}
+
+.btn-primary{
+    background: #fd6e01;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+}
+.section-description{
+    text-align: center;
+    padding: 15px 0;
+    color:#757575;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+}
+
+/* navigation styles code */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    align-items: center;
+    
+    
+
+}
+nav h1{
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+nav span{
+    color:#fd6e01;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+     list-style: none;
+    padding: 0 30px;
+    font-weight: 500;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+header{
+background: #fff8f3;
+
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0px 150px;
+    background-image: url("images/header_bg.png"),url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right , bottom left;
+    
+}
+.banner-text p{
+    font-weight:500;
+    color:#757575;
+    padding: 15px 0;
+}
+.btn2{
+    background:#FFF8F3 ;
+    color: #fd6e01;
+    border: 1px solid #fd6e01;
+    margin-left: 15px;
+}
+/* about me section style  */
+.about-me-parent{
+    width: 1000px;
+    background: #FFF8F3;
+    margin: 120px auto;
+    padding: 100px;
+   
+
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+.about-item p{
+    padding: 10px 0;
+    color: #757575;
+    font-size: 18px;
+}
+.about-item h5{
+    font-size: 20px;
+    color: #474747;
+}
+.about-item a{
+    color: #474747;
+    text-decoration: none;
+}
+/* what i do section styles  */
+.what-i-do-container{
+    display: flex;
+    margin: 50px 150px;
+    text-align: left;
+    gap: 20px;
+}
+.what-i-do-item{
+    width: 250px;
+    padding: 30px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.what-i-do-item h3{
+    padding: 15px 0;
+}
+.what-i-do-item p{
+    color: #757575;
+}
