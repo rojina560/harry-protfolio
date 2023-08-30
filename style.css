@@ -20,7 +20,7 @@ body{
     text-align: center;
     padding: 15px 0;
     color:#757575;
-    line-height: 2rem;
+    line-height: 1.6rem;
 }
 .section-title{
     text-align: center;
@@ -162,4 +162,29 @@ background: #fff8f3;
 }
 .btn3{
     margin-left: 530px;
+}
+/* footer section code  */
+footer{
+    background:#FFF8F3;
+    margin-top: 50px;
+}
+.footer-section-container{
+    display: flex;
+    padding: 80px 150px;
+    gap: 100px;
+   
+}
+.footer-form input,textarea{
+    padding: 15px 15px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+}
+.social-link{
+    text-align: center;
+    margin: 0 15px;
+}
+.social-link img{
+    margin: 0 15px;
 }
