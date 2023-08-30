@@ -20,6 +20,7 @@ body{
     text-align: center;
     padding: 15px 0;
     color:#757575;
+    line-height: 2rem;
 }
 .section-title{
     text-align: center;
@@ -134,4 +135,31 @@ background: #fff8f3;
 }
 .what-i-do-item p{
     color: #757575;
+}
+/* resume section  */
+.resume-container{
+    display: flex;
+    margin: 30px 150px;
+    gap: 20px;
+    
+}
+.my-education h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+    padding: 20px 0;
+}
+.my-education h4{
+    color: #474747;
+}
+.my-education p{
+    padding: 20px 0;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.my-education h3{
+    padding: 10px 0;
+}
+.btn3{
+    margin-left: 530px;
 }
